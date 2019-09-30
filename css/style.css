@@ -176,7 +176,7 @@ End Box 3
 */
 .footer {
     overflow: auto;
-    background-color: darkred;
+    background-color:darkred ;
     color: white;
 }
 
@@ -211,7 +211,8 @@ End Box 3
   }
 
 .col-2 li {
-    display: inline;   
+    display: inline;
+
 }
 
 
