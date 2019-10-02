@@ -26,8 +26,9 @@ body {
 
     .menu ul {
         background-color:rgb(51, 204, 255);
+        font-size: 20px;
         margin: auto;
-        padding: 5px 0px 5px 30px;
+        padding: 20px 0px 20px 0px;
         overflow: auto;
     }
 
@@ -45,7 +46,7 @@ body {
         color: whitesmoke;
         background-color: rgb(51, 153, 255);
         margin: auto;
-        padding: 5px 0px;
+        padding: 10px;
     }
 /*
 ----------------
@@ -79,6 +80,7 @@ body {
         color: black;
     }
 
+
 /*
 -----------------------
     End Spotlight
@@ -108,8 +110,9 @@ body {
     Start Product
 -----------------------
 */
-
-
+.kolom a:hover {
+    opacity: 0.7;
+}
 /*
 -----------------------
     End Product
@@ -119,7 +122,9 @@ body {
     Start Owner
 ------------------------
 */
-
+.owner {
+    font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+}
 /*
 ------------------------
     End Owner
@@ -131,8 +136,8 @@ body {
 */
     .box-1 {
         overflow: auto;
-        background-color: greenyellow;
-        padding: 20px 0;
+        background-color: #f2f2f2;
+        padding: 30px 50px 30px 50px;
         text-align: center;
     }
 /*
@@ -146,9 +151,20 @@ body {
 */
 .box-2 {
     overflow: auto;
-    background-color: orange;
-    padding: 20px 0;
+    background-color: #f2f2f2;
+    padding: 20px;
     text-align: center;
+}
+
+.box-2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.box-2 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(22, 21, 21);
+    padding: 30px 60px 30px 60px;
 }
 /*
 ------------------------
@@ -161,7 +177,7 @@ End Box 2
 */
 .box-3 {
     overflow: auto;
-    background-color: red;
+    background-color: #f2f2f2;
     padding: 20px 0;
     text-align: center;
 }
@@ -176,7 +192,7 @@ End Box 3
 */
 .footer {
     overflow: auto;
-    background-color:darkred ;
+    background-color:gray ;
     color: white;
 }
 
